@@ -5,11 +5,11 @@ import Values from "./values";
 class Services extends Component {
   render() {
     return (
-      <AppLayer navbarClass={"navbar navbar-expand-lg navbar-dark bg-transparent header-light fixed-top header-reverse-scroll"}>
+      <AppLayer butnColor={"btn btn-medium butn-blue btn-round-edge"}>
         <section
           className="parallax bg-extra-dark-gray"
           data-parallax-background-ratio="0.5"
-          style={{ backgroundImage: 'url("images/what-we-offers-bg-1.jpg")' }}
+          style={{ background: "black" }}
         >
           <div className="opacity-extra-medium bg-extra-dark-gray" />
           <div className="container">

@@ -2,223 +2,74 @@ import React, { Component } from "react";
 class ThirdSection extends Component {
   render() {
     return (
-      <section className="big-section border-top border-color-medium-gray pb-0">
+      <section
+        style={{
+          // backgroundImage: 'url("new_images/boolean_bg_left1.jpg")',
+          background: "black",
+        }}
+        className="bg-gradient-white-light-gray"
+      >
         <div className="container">
-          <div className="row align-items-center margin-10-rem-bottom md-margin-5-rem-bottom sm-margin-4-rem-bottom">
-            <div className="col-12 col-lg-4 text-center text-lg-start md-margin-30px-bottom wow animate__fadeIn">
-              <h4 className="alt-font font-weight-600 text-extra-dark-gray mb-0 letter-spacing-minus-1px">
-                Amazing work
-              </h4>
+          <div className="row align-items-center justify-content-center">
+            <div className="col-lg-6 wow animate__fadeIn" data-wow-delay="0.2s">
+              <img src="Home_Page/Group_34951.png" alt="" />
             </div>
-            <div className="col-12 col-lg-8 text-center wow animate__fadeIn">
-              {/* start filter navigation */}
-              <ul className="portfolio-filter grid-filter nav nav-tabs justify-content-center justify-content-lg-end border-0 text-uppercase font-weight-500 alt-font">
-                <li className="nav active">
-                  <a data-filter="*" href="#">
-                    All
-                  </a>
-                </li>
-                <li className="nav">
-                  <a data-filter=".branding" href="#">
-                    Branding
-                  </a>
-                </li>
-                <li className="nav">
-                  <a data-filter=".graphics" href="#">
-                    Graphics
-                  </a>
-                </li>
-                <li className="nav">
-                  <a data-filter=".logos" href="#">
-                    Logos
-                  </a>
-                </li>
-                <li className="nav">
-                  <a data-filter=".photography" href="#">
-                    Photography
-                  </a>
-                </li>
-              </ul>
-              {/* end filter navigation */}
-            </div>
-          </div>
-        </div>
-        <div className="container-fluid">
-          <div className="row">
-            <div className="col-12 filter-content px-md-0 wow animate__fadeIn">
-              <ul className="portfolio-bordered portfolio-wrapper grid grid-loading grid-4col xl-grid-4col lg-grid-2col md-grid-2col sm-grid-2col xs-grid-1col text-center">
-                <li className="grid-sizer" />
-                {/* start portfolio item */}
-                <li className="grid-item logos branding wow animate__fadeIn">
-                  <a href="single-project-page-01.html">
-                    <div className="portfolio-box">
-                      <div className="portfolio-image bg-white">
-                        <img
-                          src="images/home-design-agency-img-04.jpg"
-                          alt=""
-                        />
-                        <div className="portfolio-hover bg-white justify-content-center d-flex flex-column">
-                          <div className="scale">
-                            <div className="alt-font text-extra-dark-gray font-weight-600 letter-spacing-minus-1px d-block text-extra-large text-uppercase">
-                              Motion
-                            </div>
-                            <div className="text-uppercase text-medium-gray text-small alt-font d-block">
-                              Identity
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </a>
-                </li>
-                {/* end portfolio item */}
-                {/* start portfolio item */}
-                <li className="grid-item logos graphics wow animate__fadeIn">
-                  <a href="single-project-page-02.html">
-                    <div className="portfolio-box">
-                      <div className="portfolio-image bg-white">
-                        <img
-                          src="images/home-design-agency-img-05.jpg"
-                          alt=""
-                        />
-                        <div className="portfolio-hover bg-white justify-content-center d-flex flex-column">
-                          <div className="scale">
-                            <div className="alt-font text-extra-dark-gray font-weight-600 letter-spacing-minus-1px d-block text-extra-large text-uppercase">
-                              Biolator
-                            </div>
-                            <div className="text-uppercase text-medium-gray text-small alt-font d-block">
-                              Branding
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </a>
-                </li>
-                {/* end portfolio item */}
-                {/* start portfolio item */}
-                <li className="grid-item photography branding wow animate__fadeIn">
-                  <a href="single-project-page-03.html">
-                    <div className="portfolio-box">
-                      <div className="portfolio-image bg-white">
-                        <img
-                          src="images/home-design-agency-img-06.jpg"
-                          alt=""
-                        />
-                        <div className="portfolio-hover bg-white justify-content-center d-flex flex-column">
-                          <div className="scale">
-                            <div className="alt-font text-extra-dark-gray font-weight-600 letter-spacing-minus-1px d-block text-extra-large text-uppercase">
-                              Oslands
-                            </div>
-                            <div className="text-uppercase text-medium-gray text-small alt-font d-block">
-                              Branding
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </a>
-                </li>
-                {/* end portfolio item */}
-                {/* start portfolio item */}
-                <li className="grid-item photography graphics wow animate__fadeIn">
-                  <a href="single-project-page-04.html">
-                    <div className="portfolio-box">
-                      <div className="portfolio-image bg-white">
-                        <img
-                          src="images/home-design-agency-img-07.jpg"
-                          alt=""
-                        />
-                        <div className="portfolio-hover bg-white justify-content-center d-flex flex-column">
-                          <div className="scale">
-                            <div className="alt-font text-extra-dark-gray font-weight-600 letter-spacing-minus-1px d-block text-extra-large text-uppercase">
-                              Financial
-                            </div>
-                            <div className="text-uppercase text-medium-gray text-small alt-font d-block">
-                              Photography
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </a>
-                </li>
-                {/* end portfolio item */}
-                {/* start portfolio item */}
-                <li className="grid-item logos graphics branding wow animate__fadeIn">
-                  <a href="single-project-page-05.html">
-                    <div className="portfolio-box">
-                      <div className="portfolio-image bg-white">
-                        <img
-                          src="images/home-design-agency-img-08.jpg"
-                          alt=""
-                        />
-                        <div className="portfolio-hover bg-white justify-content-center d-flex flex-column">
-                          <div className="scale">
-                            <div className="alt-font text-extra-dark-gray font-weight-600 letter-spacing-minus-1px d-block text-extra-large text-uppercase">
-                              Dupont
-                            </div>
-                            <div className="text-uppercase text-medium-gray text-small alt-font d-block">
-                              Branding
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </a>
-                </li>
-                {/* end portfolio item */}
-                {/* start portfolio item */}
-                <li className="grid-item logos photography wow animate__fadeIn">
-                  <a href="single-project-page-01.html">
-                    <div className="portfolio-box">
-                      <div className="portfolio-image bg-white">
-                        <img
-                          src="images/home-design-agency-img-09.jpg"
-                          alt=""
-                        />
-                        <div className="portfolio-hover bg-white justify-content-center d-flex flex-column">
-                          <div className="scale">
-                            <div className="alt-font text-extra-dark-gray font-weight-600 letter-spacing-minus-1px d-block text-extra-large text-uppercase">
-                              Gardner
-                            </div>
-                            <div className="text-uppercase text-medium-gray text-small alt-font d-block">
-                              Branding
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </a>
-                </li>
-                {/* end portfolio item */}
-                {/* start portfolio item */}
-                <li className="grid-item graphics photography branding wow animate__fadeIn">
-                  <a href="single-project-page-02.html">
-                    <div className="portfolio-box">
-                      <div className="portfolio-image bg-white">
-                        <img
-                          src="images/home-design-agency-img-10.jpg"
-                          alt=""
-                        />
-                        <div className="portfolio-hover bg-white justify-content-center d-flex flex-column">
-                          <div className="scale">
-                            <div className="alt-font text-extra-dark-gray font-weight-600 letter-spacing-minus-1px d-block text-extra-large text-uppercase">
-                              Truenorth
-                            </div>
-                            <div className="text-uppercase text-medium-gray text-small alt-font d-block">
-                              Photography
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </a>
-                </li>
-                {/* end portfolio item */}
-              </ul>
+            <div style={{
+              marginBottom:"100px",
+              marginTop:"30px",
+              paddingLeft:"80px",
+              color:"white"
+            }} className="col-lg-6 ">
+              <button
+                style={{
+                  backgroundImage: 'url("Home_Page/Rectangle_136.png")',
+                  backgroundSize: "100%",
+                  color: "white",
+                  fontSize: "1.5rem",
+                  fontWeight: "bolder",
+                  marginBottom:"15px"
+                }}
+                className="btn btn-large "
+              >
+                ABOUT ME
+              </button>
+
+              <p>
+                I'm Shedrach Ifeoluwa,<span style={{color:"#6eb642"}}> A graphic & UI/UX designer</span> skilled in
+                Product designing, Branding and design facilitation with 
+                <span style={{color:"#6eb642"}}>4+ years</span> of hands-on experience in digital products.  </p>
+
+                <p> I've worked in  <span style={{color:"#6eb642"}}>over 10 industry sectors</span>with companies around the world
+                creating top-class design experiences to meet customer's needs
+                and demands. I possess a wide range of abilities that combine
+                innovative art and design principles.  </p>
+                <p> Currently designing at  <span style={{color:"#6eb642"}}> Boolean Technologies</span>, a high- technology driven company that
+                creates working solutions to meet customer's needs.  </p>
+               <p> Outside of work, I engage myself in  <span style={{color:"#6eb642"}}> social projects</span> that I strongly believe
+                in, I also do lots of freelancing.  </p>
+               <p> To learn more about me, please check out my resume.
+              </p>
+              😎😎😎😎
+              <p>
+              <button
+                style={{
+                  color: "#6eb642",
+                  border: "1px solid #6eb642",
+                  fontSize: "1rem",
+                  fontWeight: "bold",
+                  marginTop:"15px",
+                  boxShadow:"5px 10px #6EB642"
+                }}
+                className="btn btn-medium "
+              >
+               DOWNLOAD RESUME
+              </button>
+              </p>
             </div>
           </div>
+         <hr style={{
+          border:"1px solid #6eb642"
+         }} />
         </div>
       </section>
     );

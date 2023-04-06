@@ -1,28 +1,28 @@
 import React, { Component } from "react";
 class Header extends Component {
   render() {
-    const { navbarClass} = this.props;
+    const { navbarClass, butnColor} = this.props;
     return (
       <header>
-        <nav className={navbarClass || "navbar navbar-expand-lg navbar-light bg-transparent header-light fixed-top navbar-boxed header-reverse-scroll"}>
+        <nav className={navbarClass || "navbar navbar-expand-lg navbar-dark bg-transparent header-light fixed-top navbar-boxed header-reverse-scroll"}>
           <div className="container-fluid nav-header-container">
             <div className="col-5 col-lg-2 ps-lg-0 me-auto me-lg-0">
-              <a className="navbar-brand" href="index.html">
+              <a className="navbar-brand" href="/"> 
                 <img
-                  src="images/LOGO-BLACK.png"
-                  data-at2x="images/LOGO-BLACK.png"
+                  src="Home_Page/logo.png"
+                  data-at2x="Home_Page/logo.png"
                   alt=""
                   className="default-logo"
                 />
                 <img
-                  src="images/LOGO-BLACK.png"
-                  data-at2x="images/LOGO-BLACK.png"
+                  src="Home_Page/logo.png"
+                  data-at2x="Home_Page/logo.png"
                   alt=""
                   className="alt-logo"
                 />
                 <img
-                  src="images/LOGO-BLACK.png"
-                  data-at2x="images/LOGO-BLACK.png"
+                  src="Home_Page/logo.png"
+                  data-at2x="Home_Page/logo.png"
                   className="mobile-logo"
                   alt=""
                 />
@@ -47,76 +47,58 @@ class Header extends Component {
                 id="navbarNav"
               >
                 <ul className="navbar-nav alt-font">
-                  <li className="nav-item dropdown megamenu">
+                  <li className="nav-item dropdown megamenu top">
                     <a href="/" className="nav-link">
                       Home</a>
                     </li>
-                  <li className="nav-item dropdown simple-dropdown">
-                    <a href="/about-us" className="nav-link">
-                      About Us</a>
+                  <li className="nav-item dropdown simple-dropdown top">
+                    <a href="/about-me" className="nav-link">
+                      About Me</a>
                   </li>
                   
-                  <li className="nav-item dropdown simple-dropdown">
+                  <li className="nav-item dropdown simple-dropdown top">
                     
-                    <a href="/services" className="nav-link">
-                      Services </a>
+                    <a href="/resume" className="nav-link">
+                      Resume </a>
                     </li>
 
-                  <li className="nav-item dropdown simple-dropdown">
+                  <li className="nav-item dropdown simple-dropdown top">
                     
-                    <a href="#" className="nav-link">
-                      Products </a>
-                    <i
-                      className="fa fa-angle-down dropdown-toggle"
-                      data-bs-toggle="dropdown"
-                      aria-hidden="true"
-                    />
-                    <ul className="dropdown-menu" role="menu">
-                      <li className="nav-item dropdown simple-dropdown">
-                        <a href="/resulta" >
-                          Resulta - School Management System
-                          
-                        </a>
-                        
-                      </li>
-                      <li className="dropdown">
-                        <a data-bs-toggle="dropdown" href="javascript:void(0);">
-                          Face Analyzer - Skin Care Assistant
-                        
-                        </a>
-
-                      </li>
-                    </ul>
+                    <a href="/projects" className="nav-link">
+                      Projects </a>
+                    
                   </li>
                   
 
                   <li className="nav-item dropdown simple-dropdown">
-                    <a href="#" className="nav-link">
+                    <a href="/blog" className="nav-link">
                       Blog
                     </a>
                     
                   </li>
                       
-                  <li className="nav-item dropdown megamenu">
-                    <a href="/contact-us" className="nav-link">
-                      Contact Us
+                  <li className="nav-item dropdown megamenu top">
+                    <a href="/contact-me" className="nav-link">
+                      Contact Me
                     </a>
                  
                   </li>
+                 
                 </ul>
               </div>
             </div>
             <div className="col-auto col-lg-2 text-end hidden-xs px-lg-0">
               <div className="header-social-icon d-inline-block">
-                <a href="http://www.facebook.com/" target="_blank">
-                  <i className="fab fa-facebook-f" />
-                </a>
-                <a href="https://www.instagram.com/" target="_blank">
-                  <i className="fab fa-instagram" />
-                </a>
-                <a href="http://www.twitter.com/" target="_blank">
-                  <i className="fab fa-twitter" />
-                </a>
+              <button style={{
+                background: butnColor || "#6eb642",
+                backgroundSize: "100%",
+                color:"white",
+                textTransform:"none",
+                border:"none"
+                }} className="btn btn-medium">
+                Hire Me
+                </button>
+              
               </div>
             </div>
           </div>

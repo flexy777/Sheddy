@@ -72,3 +72,22 @@ cursor: pointer;
   
  
 }
+.butn-green{
+  background: #6eb642;
+}
+.butn-blue{
+  /* background-image: url('/public/Easybowen/Rectangle2.png');
+  background-size: 100%; */
+}
+.btn-lightb{
+  background: #E9EFFF;
+  border: 1px solid #d9b223;
+  color: #d9b223;
+}
+.first-section{
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.first-section h1{
+  width: max-content;
+}

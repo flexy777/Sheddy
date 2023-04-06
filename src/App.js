@@ -6,10 +6,14 @@ import {
   Switch,
   useHistory,
 } from "react-router-dom";
-import AboutUs from "./Components/App/AboutUs";
+import TajMobile from './Components/App/TajMobile';
 import Services from "./Components/App/Services";
 import ContactUs from "./Components/App/ContactUs";
+import TivShoppers from './Components/App/TiveShoppers';
+import PclEnergy from './Components/App/PclEnergy';
+import Siic from './Components/App/Siic';
 import Resulta from "./Components/App/Resulta";
+import Bowen from './Components/App/EasyBowen';
 
 
 function App() {
@@ -18,10 +22,11 @@ function App() {
     <Router hist={hist}>
       <Switch>
         <Route exact path="/" component={HomeApp} />
-        <Route exact path="/about-us" component={AboutUs} />
-        <Route exact path="/services" component={Services} />
-        <Route exact path="/contact-us" component={ContactUs} />
-        <Route exact path="/resulta" component={Resulta} />
+        <Route exact path="/about-me" component={TajMobile} />
+        <Route exact path="/resume" component={TivShoppers} />
+        <Route exact path="/contact-me" component={PclEnergy} />
+        <Route exact path="/blog" component={Siic} />
+        <Route exact path="/projects" component={Bowen} />
       </Switch>
     </Router>
   );
